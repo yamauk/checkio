@@ -17,7 +17,7 @@ def checkio(teleports_string):
                 if ret:
                     return ret
 
-    return "".join(dfs('1', ['1'], ['1']))
+    return "".join(dfs('1', [], ['1']))
 
 
 def generate_graph(teleports):
